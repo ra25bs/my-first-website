@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laurel Green Dropdown Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+<header>
+    <div class="logo-text">
+        <a href="index.html" class="logo-link">
+            <img src="img/logo final.png" alt="Coffee Farm Logo">
+            <span class="logo-name">Inag Coffee Farm <br> Association Inc.</span>
+        </a>
+    </div>
+
+    <nav>
+        <!-- Hamburger Icon -->
+      <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+
+        <ul class="menu" id="menu">
+            <li>
+                <a href="home.html">Home</a>
+            </li>
+
+            <li class="has-dropdown">
+                <a href="#">
+                    <span>About</span>
+                    <span class="arrow">&gt;</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                </ul>
+            </li>
+
+            <li class="has-dropdown">
+                <a href="#">
+                    <span>Farm</span>
+                    <span class="arrow">&gt;</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="farm.html">Coffee Farm Information</a></li>
+                    <li><a href="programs.html">Programs and Services</a></li>
+                </ul>
+            </li>
+
+            <li class="has-dropdown">
+                <a href="#">
+                    <span>News</span>
+                    <span class="arrow">&gt;</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="news.html">News & Announcements</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </li>
+
+            <li class="has-dropdown">
+                <a href="#">
+                    <span>Contact</span>
+                    <span class="arrow">&gt;</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="admin.html">Admin/Login</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+
+<!-- Admin Dashboard Section -->
+<main class="admin-dashboard">
+
+    <h1 class="admin-title">ICFAI Staff Dashboard</h1>
+    <p class="admin-subtitle">Authorized Access Only • Manage Site Content Efficiently</p>
+
+    <div class="admin-grid">
+
+        <!-- Manage Announcements -->
+        <a href="news.html" class="admin-card">
+            <i class="fa-solid fa-bullhorn"></i>
+            <h3>Manage Announcements</h3>
+            <p>Add, edit, or delete official ICFAI announcements.</p>
+        </a>
+
+        <!-- Upload / Edit Photos -->
+        <a href="gallery.html" class="admin-card">
+            <i class="fa-solid fa-images"></i>
+            <h3>Gallery Manager</h3>
+            <p>Upload and organize photos for the gallery.</p>
+        </a>
+
+        <!-- Manage Page Content -->
+        <a href="admin.html" class="admin-card">
+            <i class="fa-solid fa-file-lines"></i>
+            <h3>Manage Page Content</h3>
+            <p>Edit the written content of all website pages.</p>
+        </a>
+
+        <!-- Update Programs & Services -->
+        <a href="programs.html" class="admin-card">
+            <i class="fa-solid fa-seedling"></i>
+            <h3>Programs & Services</h3>
+            <p>Update available programs, services, and farm activities.</p>
+        </a>
+
+        <!-- Manage Members -->
+        <a href="membership.html" class="admin-card">
+            <i class="fa-solid fa-users"></i>
+            <h3>Member Information</h3>
+            <p>Add, modify, or remove ICFAI member records.</p>
+        </a>
+
+    </div>
+</main>
+
+
+
+<footer class="footer">
+    <div class="footer-container">
+
+        
+        <div class="footer-section footer-brand">
+            <img src="img/logo final.png" alt="ICFAI Logo" class="footer-logo">
+            <h3>Inag Coffee Farm Association Inc.</h3>
+            <p>Committed to sustainable farming and community growth.</p>
+        </div>
+
+        
+        <div class="footer-section">
+            <h4>Address</h4>
+            <p>Brgy. Lower Mainit, Malungon,<br>Sarangani Province, Philippines</p>
+        </div>
+
+        
+        <div class="footer-section">
+            <h4>Contact Us</h4>
+            <p>Email: icfai.office@gmail.com</p>
+            <p>Phone: +63 912 345 6789</p>
+            <p>Office Hours: Mon–Fri, 8AM–5PM</p>
+        </div>
+
+    
+    <div class="footer-section">
+    <h4>Follow Us</h4>
+
+    <a href="https://www.facebook.com/profile.php?id=100092526247790" 
+       target="_blank" 
+       class="social-link">
+        <i class="fa-brands fa-facebook-f"></i>
+        Facebook Page
+    </a>
+</div>
+
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 Inag Coffee Farm Association Inc. All Rights Reserved.</p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+

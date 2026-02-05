@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICFAI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+<header>
+    <div class="logo-text">
+        <a href="index.html" class="logo-link">
+            <img src="img/logo final.png" alt="Coffee Farm Logo">
+            <span class="logo-name">Inag Coffee Farm <br> Association Inc.</span>
+        </a>
+    </div>
+
+    <nav>
+        <!-- Hamburger Icon -->
+      <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+
+        <ul class="menu" id="menu">
+            <li>
+                <a href="home.html">Home</a>
+            </li>
+
+            <li class="has-dropdown">
+                <a href="#">
+                    <span>About</span>
+                    <span class="arrow">&gt;</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                </ul>
+            </li>
+
+            <li class="has-dropdown">
+                <a href="#">
+                    <span>Farm</span>
+                    <span class="arrow">&gt;</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="farm.html">Coffee Farm Information</a></li>
+                    <li><a href="programs.html">Programs and Services</a></li>
+                </ul>
+            </li>
+
+            <li class="has-dropdown">
+                <a href="#">
+                    <span>News</span>
+                    <span class="arrow">&gt;</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="news.html">News & Announcements</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </li>
+
+           <li class="has-dropdown">
+  <a href="javascript:void(0)">
+    <span>Contact</span>
+    <span class="arrow">&gt;</span>
+  </a>
+  <ul class="dropdown">
+    <li><a href="contact.html">Contact Us</a></li>
+    <li><a href="admin.html">Admin/Login</a></li>
+  </ul>
+</li>
+
+    </nav>
+</header>
+
+
+
+<main>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section">
+        <h2 class="contact-title">Get in Touch With Us</h2>
+        <p class="contact-subtitle">We’d love to hear from you. Reach us through any of our communication channels.</p>
+
+        <div class="contact-container">
+
+            <!-- LEFT SIDE: CONTACT DETAILS -->
+            <div class="contact-info">
+
+                <div class="info-card">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <h4>Contact Number</h4>
+                        <p>+63 912 345 6789</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <h4>Email Address</h4>
+                        <p>icfai.office@gmail.com</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <i class="fa-brands fa-facebook"></i>
+                    <div>
+                        <h4>Facebook Page</h4>
+                        <a href="https://www.facebook.com/profile.php?id=100092526247790" target="_blank">
+                            Visit Page
+                        </a>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                    <div>
+                        <h4>Messenger</h4>
+                        <a href="https://m.me/100092526247790" target="_blank">
+                            Message Us on Messenger
+                        </a>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Brgy. Lower Mainit, Malungon, Sarangani Province</p>
+                    </div>
+                </div>
+
+                <!-- EMBEDDED GOOGLE MAP -->
+                <div class="map-box">
+                    <iframe 
+                        src="https://www.google.com/maps?q=Brgy.+Lower+Mainit,+Malungon,+Sarangani+Province&output=embed"
+                        allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- RIGHT SIDE: CONTACT FORM -->
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+
+                <form action="#" method="post">
+                    <input type="text" name="name" placeholder="Your Full Name" required>
+                    <input type="email" name="email" placeholder="Your Email Address" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <textarea name="message" rows="6" placeholder="Write your message here..." required></textarea>
+
+                    <button type="submit" class="send-btn">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+
+
+<footer class="footer">
+    <div class="footer-container">
+
+        
+        <div class="footer-section footer-brand">
+            <img src="img/logo final.png" alt="ICFAI Logo" class="footer-logo">
+            <h3>Inag Coffee Farm Association Inc.</h3>
+            <p>Committed to sustainable farming and community growth.</p>
+        </div>
+
+        
+        <div class="footer-section">
+            <h4>Address</h4>
+            <p>Brgy. Lower Mainit, Malungon,<br>Sarangani Province, Philippines</p>
+        </div>
+
+        
+        <div class="footer-section">
+            <h4>Contact Us</h4>
+            <p>Email: icfai.office@gmail.com</p>
+            <p>Phone: +63 912 345 6789</p>
+            <p>Office Hours: Mon–Fri, 8AM–5PM</p>
+        </div>
+
+    
+    <div class="footer-section">
+    <h4>Follow Us</h4>
+
+    <a href="https://www.facebook.com/profile.php?id=100092526247790" 
+       target="_blank" 
+       class="social-link">
+        <i class="fa-brands fa-facebook-f"></i>
+        Facebook Page
+    </a>
+</div>
+
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 Inag Coffee Farm Association Inc. All Rights Reserved.</p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
