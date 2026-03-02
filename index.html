@@ -20,65 +20,35 @@
         </a>
     </div>
 
-    <nav>
-        <!-- Hamburger Icon -->
-      <div class="hamburger" id="hamburger">
+   <nav>
+  <div class="hamburger" id="hamburger">
     <span></span>
     <span></span>
     <span></span>
-</div>
+  </div>
 
+  <ul class="menu" id="menu">
+    <li><a href="home.html">Home</a></li>
 
-        <ul class="menu" id="menu">
-            <li>
-                <a href="home.html">Home</a>
-            </li>
+    <li class="has-dropdown">
+      <a href="#">About <span class="arrow">&gt;</span></a>
+      <ul class="dropdown">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="membership.html">Membership</a></li>
+      </ul>
+    </li>
 
-            <li class="has-dropdown">
-                <a href="#">
-                    <span>About</span>
-                    <span class="arrow">&gt;</span>
-                </a>
-                <ul class="dropdown">
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="membership.html">Membership</a></li>
-                </ul>
-            </li>
+    <li class="has-dropdown">
+      <a href="#">News <span class="arrow">&gt;</span></a>
+      <ul class="dropdown">
+        <li><a href="news.html">News & Announcements</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </li>
 
-            <li class="has-dropdown">
-                <a href="#">
-                    <span>Farm</span>
-                    <span class="arrow">&gt;</span>
-                </a>
-                <ul class="dropdown">
-                    <li><a href="farm.html">Coffee Farm Information</a></li>
-                    <li><a href="programs.html">Programs and Services</a></li>
-                </ul>
-            </li>
-
-            <li class="has-dropdown">
-                <a href="#">
-                    <span>News</span>
-                    <span class="arrow">&gt;</span>
-                </a>
-                <ul class="dropdown">
-                    <li><a href="news.html">News & Announcements</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                </ul>
-            </li>
-
-            <li class="has-dropdown">
-                <a href="#">
-                    <span>Contact</span>
-                    <span class="arrow">&gt;</span>
-                </a>
-                <ul class="dropdown">
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="admin.html">Admin/Login</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
 </header>
 
 
@@ -200,16 +170,6 @@
     </div>
 </footer>
 
-    <script src="script.js"></script>
-<script>
-  const hamburger = document.getElementById('hamburger');
-  const menu = document.getElementById('menu');
-
-  hamburger.addEventListener('click', () => {
-    menu.classList.toggle('active'); // toggles menu visibility
-    hamburger.classList.toggle('open'); // optional: animate hamburger
-  });
-</script>
-
+  <script src="script.js" defer></script>
 </body>
 </html>

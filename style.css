@@ -886,12 +886,9 @@ body {
 
 /* ===================== ABOUT US PAGE ===================== */
 .about-identity {
-    max-width: 1200px;
-    margin: 3em auto;
-    padding: 0 1em;
-    font-family: 'Cardo', serif;
-    color: #333;
-    line-height: 1.8;
+     max-width: 1200px;
+    margin: 2em auto;
+    padding: 0 5%;
 }
 
 /* Section Blocks */
@@ -916,7 +913,6 @@ body {
 /* Organizational structure list */
 .org-structure ul {
     list-style: disc inside;
-    margin-left: 0;
     padding-left: 1em;
 }
 
@@ -1010,14 +1006,12 @@ body {
 /* ===================== FARM & PRODUCTS ===================== */
 .farm-products {
     max-width: 1200px;
-    margin: 3em auto;
-    padding: 0 1em;
+    margin: 3em auto;   /* SAME as membership */
+    padding: 0 1em;     /* SAME as membership */
     font-family: 'Cardo', serif;
     color: #333;
-    line-height: 1.6;
-    text-align: left; /* force left alignment */
+    line-height: 1.8;
 }
-
 .farm-products h2 {
     text-align: left;          /* 🔥 FIX */
     color: #2c4a27;
@@ -1049,6 +1043,10 @@ body {
 .farm-block ul {
     list-style: disc inside;
     padding-left: 1em;
+    text-align: left;
+}
+.farm-products ul {
+    margin-left: 0;
     text-align: left;
 }
 
@@ -1321,15 +1319,14 @@ body {
   font-weight: 500;
 }
 
-
-
 .membership-section {
-  padding: 60px 10%;
-  background-color: #f5f8f5;
-  font-family: 'Arial', sans-serif;
-  color: #1b3a2d;
+    max-width: 1200px;
+    margin: 3em auto;
+    padding: 0 1em;
+    font-family: 'Cardo', serif;
+    color: #333;
+    line-height: 1.8;
 }
-
 .membership-section h2 {
   text-align: center;
   font-size: 2.2em;
@@ -1464,21 +1461,16 @@ body {
 
 
 
-
 .farm-products {
-  padding: 60px 10%;
-  background-color: #f5f8f5;
-  color: #1b3a2d;
-  font-family: 'Arial', sans-serif;
-  text-align: left;
+    max-width: 1200px;
+    margin: 3em auto;
+    padding: 0 1em;
 }
-
 
 .farm-products h2 {
     text-align: left !important;
     display: block !important;
     width: 100% !important;
-    margin-left: 3rem !important;
     margin-right: 0 !important;
 }
 
@@ -1492,7 +1484,6 @@ body {
 .farm-block {
   margin-bottom: 50px;
   text-align: left;
-  margin-left: 3rem
 }
 
 .farm-block h3 {
@@ -1500,14 +1491,14 @@ body {
   color: #2e4d2f;
   margin-bottom: 15px;
   text-align: left;
-  margin-left: 3rem
+
 }
 
 .farm-block p, .farm-block ul {
   font-size: 1rem;
   line-height: 1.6;
   text-align: left;
-  margin-left: 3rem
+
 }
 
 .section-divider {
@@ -1552,11 +1543,7 @@ body {
     max-width: 1200px;
     margin: 3em auto;
     padding: 0 1em;
-    font-family: 'Cardo', serif;
-    color: #333;
-    text-align: center;
 }
-
 .programs-section h2 {
     color: #2c4a27;
     font-size: 2.5em;
@@ -1626,9 +1613,6 @@ body {
     max-width: 1200px;
     margin: 3em auto;
     padding: 0 1em;
-    font-family: 'Cardo', serif;
-    color: #333;
-    text-align: center;
 }
 
 .news-section h2 {
@@ -1743,11 +1727,9 @@ body {
 
 /* Admin Form */
 .admin-form {
-  margin-top: 50px;
-  background-color: #e9f0e9;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  max-width: 1200px;
+    margin: 3em auto;
+    padding: 0 1em;
 }
 
 .admin-form h3 {
